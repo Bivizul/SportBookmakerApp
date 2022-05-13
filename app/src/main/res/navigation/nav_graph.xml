@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.NewsFragment"
+        android:label="fragment_item_news_list"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tablesFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.TablesFragment"
+        android:label="fragment_tables"
+        tools:layout="@layout/fragment_tables" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.StatisticsFragment"
+        android:label="StatisticsFragment"
+        tools:layout="@layout/fragment_statistics"/>
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.bivizul.sportbookmakerapp.presentation.screens.CountryFragment"
+        android:label="CountryFragment"
+        tools:layout="@layout/fragment_country">
+        <action
+            android:id="@+id/action_countryFragment_to_tablesFragment"
+            app:destination="@id/tablesFragment" />
+    </fragment>
+</navigation>

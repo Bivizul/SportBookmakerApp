@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/background_1">
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_extra_bold_italic"
+        android:gravity="center"
+        android:text="@string/settings_u"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_extra_bold_italic"
+        android:gravity="center"
+        android:text="@string/notifications"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/tvTittle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTittle" />
+
+    <TextView
+        android:id="@+id/tvBlackTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_extra_bold_italic"
+        android:gravity="center"
+        android:text="@string/black_theme"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/tvTittle"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotification" />
+
+    <TextView
+        android:id="@+id/tvWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_extra_bold_italic"
+        android:gravity="center"
+        android:text="@string/wallpaper"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/tvTittle"
+        app:layout_constraintTop_toBottomOf="@+id/tvBlackTheme" />
+
+    <Switch
+        android:id="@+id/swNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:thumb="@drawable/custom_thumb"
+        android:track="@drawable/custom_track"
+        app:layout_constraintEnd_toEndOf="@+id/tvTittle"
+        app:layout_constraintTop_toTopOf="@+id/tvNotification"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/swBlackTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:thumb="@drawable/custom_thumb"
+        android:track="@drawable/custom_track"
+        app:layout_constraintEnd_toEndOf="@+id/swNotification"
+        app:layout_constraintTop_toTopOf="@+id/tvBlackTheme"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/btWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change"
+        app:layout_constraintEnd_toEndOf="@+id/swBlackTheme"
+        app:layout_constraintTop_toTopOf="@+id/tvWallpaper" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

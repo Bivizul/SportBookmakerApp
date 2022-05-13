@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SportBookmakerApp</string>
+
+    <!--    <U>         -->
+    <string name="bet_u"><u>BET</u></string>
+    <string name="match_u"><u>MATCH</u></string>
+    <string name="tables"><u>ТАБЛИЦЫ</u></string>
+    <string name="news_u"><u>НОВОСТИ</u></string>
+    <string name="russia_u"><u>РОССИЯ</u></string>
+    <string name="england_u"><u>АНГЛИЯ</u></string>
+    <string name="germany_u"><u>ГЕРМАНИЯ</u></string>
+    <string name="spain_u"><u>ИСПАНИЯ</u></string>
+    <string name="statistic_u"><u>СТАТИСТИКА</u></string>
+    <string name="settings_u"><u>НАСТРОЙКИ</u></string>
+
+    <!--    Attributes     -->
+    <string name="team">Команда</string>
+    <string name="tournament">Турнир</string>
+    <string name="strikes_z_i">Удары з.и.</string>
+    <string name="selections_z_i">Отборы з.и.</string>
+    <string name="interceptions_z_i">Перехваты з.и.</string>
+    <string name="rating">Рейтинг</string>
+    <string name="fouls_z_i">Фолы з.и.</string>
+    <string name="offsides_z_i">Офсайды з.и.</string>
+    <string name="strikes_vstv_z_i">Удары ВСтв з.и.</string>
+    <string name="dribling_z_i">Дриблинг з.и.</string>
+    <string name="fouls_given_z_i">Дано фолов з.и.</string>
+    <string name="games">Игры</string>
+    <string name="v">В</string>
+    <string name="n">Н</string>
+    <string name="p">П</string>
+    <string name="bool">Мячи</string>
+    <string name="specs">Очки</string>
+    <string name="specs_percent">% очков</string>
+
+    <!--    Others      -->
+    <string name="image">image</string>
+    <string name="wallpaper">ОБОИ</string>
+    <string name="black_theme">ЧЕРНАЯ ТЕМА</string>
+    <string name="notifications">УВЕДОМЛЕНИЯ</string>
+    <string name="defense">ОБОРОНА</string>
+    <string name="attack">АТАКА</string>
+    <string name="russia">РОССИЯ</string>
+    <string name="england">АНГЛИЯ</string>
+    <string name="germany">ГЕРМАНИЯ</string>
+    <string name="spain">ИСПАНИЯ</string>
+    <string name="table">ТАБЛИЦА</string>
+    <string name="news">НОВОСТИ</string>
+    <string name="statistic">СТАТИСТИКА</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="bet">BET</string>
+    <string name="match">MATCH</string>
+
+</resources>

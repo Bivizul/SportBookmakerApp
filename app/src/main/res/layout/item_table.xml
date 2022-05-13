@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTable1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="2dp"
+            android:textColor="@color/black"
+            tools:ignore="RtlSymmetry"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+        <TextView
+            android:id="@+id/tvTable8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            tools:text="My attribute 1" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
